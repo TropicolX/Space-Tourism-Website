@@ -1,23 +1,23 @@
 # Frontend Mentor - Space tourism website
 
-- Live website -(https://space-tourism-multipage-cpwd.netlify.app/)
+-   Live website -(https://#/)
 
 ## Table of contents
 
-- [The challenge](#the-challenge)
-- [Screenshot](#screenshot)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
+-   [The challenge](#the-challenge)
+-   [Screenshot](#screenshot)
+-   [My process](#my-process)
+    -   [Built with](#built-with)
+    -   [What I learned](#what-i-learned)
+    -   [Useful resources](#useful-resources)
 
 ## The challenge
 
 Your users should be able to:
 
-- View the optimal layout for each of the website's pages depending on their device's screen size
-- See hover states for all interactive elements on the page
-- View each page and be able to toggle between the tabs to see new information
+-   View the optimal layout for each of the website's pages depending on their device's screen size
+-   See hover states for all interactive elements on the page
+-   View each page and be able to toggle between the tabs to see new information
 
 ### Screenshot
 
@@ -30,17 +30,17 @@ Your users should be able to:
 
 ### Built with
 
-- React.js
-- Sass/SCSS
-- React Hooks
+-   React.js
+-   Sass/SCSS
+-   React Hooks
 
 ### What I learned
 
-- This is the first time I made a multi-page layout with React.js. I completed the project using react-router and react hooks. I also used the json file provided to utilize and display the information. I also focused on accessibility and made sure that the layout of my pages are accessible to both keyboard users and screen readers. I also learned a lot about using React and Sass together and found it easy to work with.
+-   This is the first time I made a multi-page layout with React.js. I completed the project using react-router and react hooks. I also used the json file provided to utilize and display the information. I also focused on accessibility and made sure that the layout of my pages are accessible to both keyboard users and screen readers. I also learned a lot about using React and Sass together and found it easy to work with.
 
 #### Here is some code used to create my project
 
-- In order to display the right background image for my page, I passed down a function to the child component to pass a string and add that string into my page-wrap class
+-   In order to display the right background image for my page, I passed down a function to the child component to pass a string and add that string into my page-wrap class
 
 ```Javascript
 // App.jsx
@@ -62,7 +62,7 @@ Your users should be able to:
 </div>
 ```
 
-- My child component would then pass a string back once it renders using the useEffect hook in React
+-   My child component would then pass a string back once it renders using the useEffect hook in React
 
 ```Javascript
 function Destination(props) {
@@ -74,7 +74,7 @@ function Destination(props) {
 }
 ```
 
-- In order to display and tab through my buttons with the right and left arrow key, I used the useRef hook in order to reference the parent div of my buttons. and I used the map method to display my buttons along with the names from the json file
+-   In order to display and tab through my buttons with the right and left arrow key, I used the useRef hook in order to reference the parent div of my buttons. and I used the map method to display my buttons along with the names from the json file
 
 ```Javascript
 // reference the buttons, similar to querySelectorAll(myBtn)
@@ -136,14 +136,10 @@ const keyPress = (e) => {
 </div>
 ```
 
-- Something that I want to improve on is writing cleaner and less code. There was a lot of code within my components that I felt were very repetitive and was wondering for a way to reuse certain pieces of code through out my components. I also want to improve on having a cleaner layout for my styling sheets and files within my folder.
-
-### Useful resources
-
-- [Debugging JavaScript in Visual Studio Code and Google Chrome](https://www.youtube.com/watch?v=AX7uybwukkk&ab_channel=JamesQQuick) - this video taught me how to debug my javascript using the debugger tool in developer tools
+-   Something that I want to improve on is writing cleaner and less code. There was a lot of code within my components that I felt were very repetitive and was wondering for a way to reuse certain pieces of code through out my components. I also want to improve on having a cleaner layout for my styling sheets and files within my folder.
 
 ## Author
 
-- Website - [Carlos Perez](https://carlospwd.netlify.app/)
-- Frontend Mentor - [@Carlos-A-P](https://www.frontendmentor.io/profile/Carlos-A-P)
-- Twitter - [@WDCarlosP](https://www.twitter.com/WDCarlosP)
+-   Website - [Oluwabuayo Jaxobs](https://#/)
+-   Frontend Mentor - [@TropicolX](https://www.frontendmentor.io/profile/TropicolX)
+-   Twitter - [@TropicolX](https://www.twitter.com/TropicolX)
